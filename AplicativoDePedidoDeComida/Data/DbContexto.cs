@@ -16,7 +16,7 @@ namespace AplicativoDeComida.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             // Configurar a conexão com o banco de dados
-            optionsBuilder.UseMySql("server=localhost;user=root;password=DougVBTZ28@;database=appcomidabd", Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.35-mysql"));
+            optionsBuilder.UseMySql("server=localhost;user=root;password=1234;database=appcomidabd", Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.35-mysql"));
 
         }
         //protected override void OnModelCreating(ModelBuilder modelBuilder)
